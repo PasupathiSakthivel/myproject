@@ -7,22 +7,22 @@ const Header = () => {
         <div className='d-flex justify-content-between align-items-center'>
 
           <div className='logo'>
-            <Link to='/' className='brand'>WSP</Link>
+            <Link to='/' className='brand'>E-Tail SX</Link>
           </div>
 
           <nav className='nav nav-pills'>
-            <NavLink to='/' 
+            {/* <NavLink to='/' 
               className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
-            >Home</NavLink>
-            <NavLink to='about'
+            >Home</NavLink> */}
+            {/* <NavLink to='about'
               className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
-            >About</NavLink>
+            >About</NavLink> */}
             <NavLink to='products'
               className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
             >Products</NavLink>
-            <NavLink to='posts'
+            {/* <NavLink to='posts'
               className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
-            >Posts</NavLink>
+            >Posts</NavLink> */}
           </nav>
 
         </div>

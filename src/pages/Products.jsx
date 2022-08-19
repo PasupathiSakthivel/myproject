@@ -15,9 +15,9 @@ const Products = () => {
               <nav>
                 <ol className="breadcrumb justify-content-end">
                   <li className="breadcrumb-item">
-                    <Link to="/">Home</Link>
+                    {/* <Link to="/">Home</Link> */}
                   </li>
-                  <li className="breadcrumb-item active">Products</li>
+                  {/* <li className="breadcrumb-item active">Products</li> */}
                 </ol>
               </nav>
             </div>
